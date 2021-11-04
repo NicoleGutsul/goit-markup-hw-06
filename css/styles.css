@@ -268,6 +268,7 @@ h6 {
 }
 .form-label-policy {
   margin-bottom: 30px;
+  margin-left: 14px;
 }
 .form-label-policy-text {
   font-size: 14px;
@@ -308,7 +309,13 @@ h6 {
 }
 .form-button {
   align-self: center;
+  line-height: 30px;
+  font-weight: 700;
   width: 200px;
+  height: 50px;
+  letter-spacing: 0.06em;
+  font-family: Roboto;
+  font-style: normal;
   transition: 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
@@ -335,8 +342,7 @@ h6 {
 
 .hero-close-button:hover,
 .hero-close-button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  color: var(--accent-color);
 }
 
 /* Logo */
